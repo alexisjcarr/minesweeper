@@ -3,7 +3,7 @@ export class Board {
       this._numberOfBombs = numberOfBombs;
       this._numberOfTiles = numberOfRows*numberOfColumns;
       this._playerBoard = Board.generatePlayerBoard(numberOfRows,numberOfColumns);
-      this._bombBoard = Board.generateBombBoard(numberOfRows,numberOfColumns);
+      this._bombBoard = Board.generateBombBoard(numberOfRows,numberOfColumns,numberOfBombs);
     }
   
     get playerBoard() {
