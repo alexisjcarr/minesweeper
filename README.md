@@ -13,8 +13,8 @@ Run `.load game.js` to load the contents of this file.
 
 Then create a Game instance and run commands like so:
 ```
-let game = new Game(3, 3, 3);
-game.playMove(0, 1);
+let game = new Game(3, 3, 3); // where the Game arguments are Game(numberOfRowsOnBoard, numberOfColumnsOnBoard, numberOfBombsOnBoard)
+game.playMove(0, 1); // (0,1) represents the tile in first row and second column.
 game.playMove(1, 2);
 ```
 When done run `.exit`
