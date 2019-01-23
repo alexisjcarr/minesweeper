@@ -40,13 +40,16 @@ export class Board {
       neighborOffset.forEach(offset => {
         const neighborRowIndex = rowIndex + offset[0];
         const neighborColumnIndex = columnIndex + offset[1];
-        if(neighborRowIndex>=0 && neighborRowIndex<numberOfRows && neighborColumnIndex>=0 && neighborColumnIndex<numberOfColumns){
+        if(neighborRowIndex>=0 && 
+          neighborRowIndex<numberOfRows && 
+          neighborColumnIndex>=0 && 
+          neighborColumnIndex<numberOfColumns){
           if(this._bombBoard[neighborRowIndex][neighborColumnIndex]==='B'){
-            this._numberOfBombs++;
+            numberOfBombs++;
           }
         }
       });
-      return this._numberOfBombs;
+      return numberOfBombs;
     }
   
     hasSafeTiles() {
