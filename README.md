@@ -1,7 +1,7 @@
 # Minesweeper
 This is a command line implementation of MineSweeper that I made during my time in a Codecademy Intensive course.
 
-![minesweeper game](https://raw.githubusercontent.com/alexisjcarr/minesweeper/master/lib/game.png)
+![minesweeper game](https://raw.githubusercontent.com/alexisjcarr/minesweeper/master/src/game1.png) ![minesweeper game2](https://raw.githubusercontent.com/alexisjcarr/minesweeper/master/src/game2.png) ![minesweeper game3](https://raw.githubusercontent.com/alexisjcarr/minesweeper/master/src/game3.png)
 
 To play Minesweeper, we will create instances of MineSweeperGame in command line.
 
